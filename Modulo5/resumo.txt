@@ -1,0 +1,9 @@
+Basicamente ele explicou que podemos aninhar components, assim:
+
+function sla(){
+    return (
+        <div>
+            <OutroComponent/>
+        </div>
+    );
+}
