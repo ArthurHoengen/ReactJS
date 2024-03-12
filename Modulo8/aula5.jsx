@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { get } from './mockBackend/fetch';
+import { get } from './fetch';
 
 export default function Forecast() {
   const [data, setData] = useState();
