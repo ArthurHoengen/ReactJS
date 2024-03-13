@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 
 function StudentForm() {
-  const [firstName, setFirstName] = useState();
-  const [lastName, setLastName] = useState();
-  const [age, setAge] = useState();
-  const [address, setAddress] = useState();
-  const [homeroomClassNumber, setHomeroomClassNumber] = useState();
-  const [studentID, setStudentID] = useState();
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [age, setAge] = useState("");
+  const [address, setAddress] = useState("");
+  const [homeroomClassNumber, setHomeroomClassNumber] = useState("");
+  const [studentID, setStudentID] = useState("");
 
   function handleFirstName(e) {
     setFirstName(e.target.value);
